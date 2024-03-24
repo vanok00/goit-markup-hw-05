@@ -660,7 +660,8 @@ a {
 }
 
 .forma {
-  margin-bottom: 8px;
+  display: flex;
+  gap: 24px;
 }
 
 .form-label {
