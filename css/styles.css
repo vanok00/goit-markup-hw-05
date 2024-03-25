@@ -582,7 +582,7 @@ a {
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window {
+.modal-cont {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -841,7 +841,4 @@ a {
   opacity: 0;
   visibility: hidden;
   pointer-events: none;
-  /* display: flex;
-  align-items: center;
-  justify-content: center; */
 }
