@@ -512,7 +512,7 @@ a {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
-  max-width: 264px;
+  min-width: 264px;
 }
 .footer-logo {
   font-weight: 700;
@@ -629,7 +629,7 @@ a {
 :focus {
   fill: #ffffff;
 }
-.mod-paragraph {
+.mod-wind-paragraph {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -776,7 +776,7 @@ a {
   fill: #f4f4fd;
 }
 
-.form-button {
+.form-mail-button {
   min-width: 165px;
   height: 40px;
   display: flex;
