@@ -404,10 +404,10 @@
                     </p>
                     <form class="form-container">
                         <label class="form-label">
-                            <input class="input-mail" 
+                            <input  
                             type="email" 
                             placeholder="E-mail"
-                            class="form-label"
+                            class="input-mail"
                             />
                         </label>
                         <button class="form-button" type="submit">Subscribe
@@ -419,42 +419,34 @@
                     </div>
             </div>
     </footer>
-    <div class="modal-overlay">
-    <p class="page-title">A modal window</p>
+    <div class="modal-container">
+        <div class="modal-window">
     <p class="form-paragraph">
-        Subscribe
     </p>
-    </div>
-    <div class="modal-window">
-<button class="modal-window-btn" type="button">
-    <svg class="mod-wind-icon" width="8" height="8">
-        <use href="./images/icons.svg#icon-close"></use>
-    </svg>
-</button>
-<p class="mod-wind-paragraph"> </p>
-<form>
-    <div class="forma">
-        <label class="lbl-form" for="user-name">Name
-        </label>
-        <div class="inp_and_icon">
-<input class="form_inp" id="user-name" type="text">
-<svg class="formsvg" width="18" height="24">
-<use href="/images/icons.svg#person">
-</use>
-</svg>
-        </div>
-
+    <form>
         <div class="forma">
-            <label class="lbl-form" for="user-name">Phone
+            <label class="lbl-form" for="user-name">Name
             </label>
             <div class="inp_and_icon">
-                <input class="form_inp" id="user-phone" type="text">
+                <input class="form_inp" id="user-name" name="user-name" type="text">
                 <svg class="formsvg" width="18" height="24">
-                    <use href="/images/icons.svg#phone-black">
+                    <use href="/images/icons.svg#person">
                     </use>
                 </svg>
             </div>
         </div>
+    
+            <div class="forma">
+                <label class="lbl-form" for="user-name">Phone
+                </label>
+                <div class="inp_and_icon">
+                    <input class="form_inp" id="user-phone" type="text">
+                    <svg class="formsvg" width="18" height="24">
+                        <use href="/images/icons.svg#phone-black">
+                        </use>
+                    </svg>
+                </div>
+            </div>
             <div class="forma">
                 <label class="lbl-form" for="user-mail">Email
                 </label>
@@ -466,41 +458,48 @@
                     </svg>
                 </div>
             </div>
-                <div class="forma">
-                    <label class="lbl-form" for="user-comment">Comment
-                    </label>
-                    <textarea class="textarea-input" id="user-comment" name="user-comment" placeholder="Text input">
-
-                    </textarea>
-                    <div class="inp_and_icon">
-                        <input class="form_inp" id="user-con" type="text">
-                        <svg class="formsvg" width="18" height="24">
-                            <use href="/images/icons.svg#email">
-                            </use>
-                        </svg>
-                    </div>
-                </div>
-                <div class="checkbox">
-                    <input class="inp-checkbox visually-hidden" id="user-privacy" type="checkbox" value="true" name="user-privacy">
-<label class="agreement" for="user-privacy">I accept the terms abd conditions of the
-<span class="agreement-span"> 
-    <svg class="span-icon" width="10" height="8">
-        <a class="agr-link" href="">Privacy Policy
-        </a>
-
-
-    </svg>
-</span>
-</label>
-                </div>
-                <button class="form-butt">Send</button>
-                
-            </div>
-            </form>
-    </div>
-
-
+            <div class="formacomm">
+                <label class="lbl-form" for="user-comment">Comment
+                </label>
+                <textarea class="textarea-input" id="user-comment" name="user-comment" placeholder="Text input">
     
+                        </textarea>
+                <div class="inp_and_icon">
+                    <input class="form_inp" id="user-con" type="text">
+                    <svg class="formsvg" width="18" height="24">
+                        <use href="/images/icons.svg#email">
+                        </use>
+                    </svg>
+                </div>
+            </div>
+            <div class="checkbox">
+                <input class="inp-checkbox visually-hidden" id="user-privacy" type="checkbox" value="true"
+                    name="user-privacy"/>
+                <label class="agreement" for="user-privacy">I accept the terms abd conditions of the
+                    <span class="agreement-span">
+                        <svg class="span-icon" width="10" height="8">
+                            <a class="agr-link" href="">Privacy Policy
+                            </a>
+    
+    
+                        </svg>
+                    </span>
+                </label>
+            </div>
+            <button class="form-butt">Send</button>
+    </form>
+        </div>
+   
+    </div>
+    <div class="modal-window">
+<button class="modal-window-btn" type="button">
+    <svg class="mod-wind-icon" width="8" height="8">
+        <use href="./images/icons.svg#icon-close"></use>
+    </svg>
+</button>
+<p class="mod-wind-paragraph"> </p>
+
+    </div>
 </body>
 </html>
 

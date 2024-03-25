@@ -570,17 +570,14 @@ a {
   height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-overlay {
-  background-color: rgba(46, 47, 66, 0.4);
+
+.modal-container {
   position: fixed;
-  display: flex;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  z-index: 999;
-  align-items: center;
-  justify-content: center;
+  background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -599,6 +596,7 @@ a {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 72px 24px 24px 24px;
 }
+
 .modal-window-btn {
   position: absolute;
   top: 24px;
@@ -658,13 +656,11 @@ a {
   letter-spacing: 0.02em;
   color: #ffffff;
 }
-
-.form-container {
-  display: flex;
-  gap: 24px;
+.forma {
+  margin-bottom: 8px;
 }
-
-.form-label {
+.formacomm {
+  margin-bottom: 16px;
 }
 .lbl-form {
   font-size: 12px;
@@ -674,6 +670,15 @@ a {
   display: block;
   margin-bottom: 4px;
 }
+
+.form-container {
+  display: flex;
+  gap: 24px;
+}
+
+.form-label {
+}
+
 .inp_and_icon {
   position: relative;
 }
@@ -683,11 +688,22 @@ a {
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
   background-color: transparent;
+  padding-left: 38px;
+  outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .form_inp:focus {
   border-color: #4d5ae5;
 }
+
+.formsvg {
+  position: absolute;
+  left: 16px;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
 .input-mail {
   color: #ffffff;
   width: 264px;
@@ -704,13 +720,7 @@ a {
 .input-mail::placeholder {
   color: #ffffff;
 }
-.formsvg {
-  position: absolute;
-  left: 16px;
-  top: 50%;
-  transform: translateY(-50%);
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+
 .formsvg:focus + .form_inp {
   border-color: #4d5ae5;
   fill: #4d5ae5;
