@@ -571,7 +571,7 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* .modal-cont {
+.modal-cont {
   position: fixed;
   top: 0;
   left: 0;
@@ -580,7 +580,7 @@ a {
   background-color: rgba(46, 47, 66, 0.4);
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
     visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-} */
+}
 
 .modal-cont {
   position: absolute;
@@ -639,6 +639,15 @@ a {
   margin-bottom: 16px;
 }
 
+.modal {
+  background-color: #fff;
+  border-radius: 4px;
+  padding: 42px;
+
+  max-width: 408px;
+  max-height: 584px;
+  overflow-y: auto;
+}
 .form-paragraph {
   margin-bottom: 16px;
   font-weight: 500;
