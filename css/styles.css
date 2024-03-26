@@ -614,8 +614,11 @@ a {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-close:hover,
-.modal-close:focus {
+..modal-close:focus {
+  background-color: #404bbf;
+  border: none;
+}
+.modal-close:hover {
   background-color: #404bbf;
   border: none;
 }
@@ -623,7 +626,9 @@ a {
 .mod-wind-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.mod-wind-icon:hover,
+.mod-wind-icon:hover {
+  fill: #ffffff;
+}
 .mod-wind-icon:focus {
   fill: #ffffff;
 }
