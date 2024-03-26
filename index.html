@@ -423,28 +423,26 @@
         </div>
     </footer>
     <div class="backdrop">
-        <div class="modal-cont">
-            <div class="modal-window">
-                <button class="modal-window-btn" type="button">
-                    <svg class="mod-wind-icon" width="8" height="8">
-                        <use href="./images/icons.svg#icon-close"></use>
-                    </svg>
-                </button>
-            </div>
-            <p class="title mod-paragraph"> </p>
-            <form>
+        <div class="modal">
+            <button class="modal-close" type="button">
+                <svg class="mod-wind-icon" width="8" height="8">
+                    <use href="./images/icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            <p class="mod-paragraph"> </p>
+            <form class="formy">
                 <div class="forma">
                     <label for="user-name" class="lbl-form">Name
                     </label>
                     <div class="inp-and-icon">
                         <input class="form-inp" id="user-name" name="user-name" type="text" />
                         <svg class="formsvg" width="18" height="24">
-                            <use href="./images/icons.svg#person">
+                            <use href="./images/icons.svg#person-black">
                             </use>
                         </svg>
                     </div>
                 </div>
-
+            
                 <div class="forma">
                     <label class="lbl-form" for="user-name">Phone
                     </label>
@@ -470,8 +468,7 @@
                 <div class="formacomm">
                     <label for="user-comment" class="lbl-form">Comment
                     </label>
-                    <textarea name="user-comment" id="user-comment" placeholder="Text input"
-                        class="textarea-input"></textarea>
+                    <textarea name="user-comment" id="user-comment" placeholder="Text input" class="textarea-input"></textarea>
                     <div class="inp-and-icon">
                         <input type="text" class="form-inp" id="user-con">
                         <svg class="formsvg" width="18" height="24">
@@ -481,8 +478,7 @@
                     </div>
                 </div>
                 <div class="checkbox">
-                    <input class="inp-checkbox visually-hidden" id="user-privacy" type="checkbox" value="true"
-                        name="user-privacy">
+                    <input type="checkbox" class="inp-checkbox visually-hidden" id="user-privacy"  value="true" name="user-privacy" required>
                     <label for="user-privacy" class="agreement">
                         <span class="agreement-span">
                             <svg class="span-icon" width="10" height="8">
@@ -496,6 +492,7 @@
                 <button type="submit" class="form-butt">Send</button>
             </form>
         </div>
+        
     </div>
 </body>
 
