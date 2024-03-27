@@ -619,8 +619,8 @@ a {
   border: none;
 }
 .modal-close:hover {
-  background-color: #404bbf;
-  border: none;
+  fill: #ffffff;
+  fill: #ffffff;
 }
 
 .mod-wind-icon {
@@ -628,8 +628,8 @@ a {
 }
 .mod-wind-icon:hover,
 .mod-wind-icon:focus {
-  fill: #ffffff;
-  fill: #ffffff;
+  background-color: #404bbf;
+  border: none;
 }
 
 .mod-paragraph {
