@@ -2,8 +2,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  max-width: 1440px;
-  height: 3300px;
 }
 
 .visually-hidden {
